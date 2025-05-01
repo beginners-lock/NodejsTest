@@ -1,0 +1,48 @@
+ID: d7d3ae98-99da-4d35-aafe-6ba619df6088
+Time: 01 May 2025	10:32:25 AM
+Route: /employee
+Method: GET
+Origin: undefined
+
+ID: 50a072cb-5255-4a80-99c8-3d809ebf2d6c
+Time: 01 May 2025	10:33:53 AM
+Route: /employee
+Method: GET
+Origin: undefined
+
+ID: 69e29c82-696d-427c-b9db-e15b8d6fd3a8
+Time: 01 May 2025	10:34:00 AM
+Route: /employee
+Method: POST
+Origin: undefined
+
+ID: a7d52bcd-af16-4ac3-9ec8-ba057efec60d
+Time: 01 May 2025	10:41:19 AM
+Route: /employee
+Method: POST
+Origin: undefined
+
+ID: fdedc128-4148-4f3f-8cb6-ca1bf0f545f9
+Time: 01 May 2025	10:42:26 AM
+Route: /employee
+Method: POST
+Origin: undefined
+
+ID: 98f939e3-0274-4ae7-929a-4dfe912058ba
+Time: 01 May 2025	10:51:16 AM
+Route: /employee/11
+Method: GET
+Origin: undefined
+
+ID: b29e33a1-6fdc-4e8b-a229-f0611eb7a955
+Time: 01 May 2025	10:52:20 AM
+Route: /employee/11
+Method: GET
+Origin: undefined
+
+ID: b2ed07ea-ba34-42a1-a605-abe897500401
+Time: 01 May 2025	10:52:26 AM
+Route: /employee/12
+Method: GET
+Origin: undefined
+

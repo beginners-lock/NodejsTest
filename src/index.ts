@@ -26,7 +26,7 @@ app.use(bodyParser.json());
 
 
 
-app.use('/employees', employeeRouter);
+app.use('/employee', employeeRouter);
 
 
 app.get('/checker', (req, res)=>{
