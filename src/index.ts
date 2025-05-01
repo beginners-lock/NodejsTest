@@ -5,7 +5,7 @@ import { requestLogger } from './middleware/requestLogger';
 import { employeeRouter } from './routes/employee';
 import bodyParser from 'body-parser';
 import cookieParser from 'cookie-parser';
-import { userRouter } from './routes/user';
+import { authRouter } from './routes/auth';
 
 const app = express();
 
@@ -26,7 +26,7 @@ app.use(cookieParser());
 app.use(bodyParser.json());
 
 
-app.use('/user', userRouter);
+app.use('/auth', authRouter);
 
 app.use('/employee', employeeRouter);
 

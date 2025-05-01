@@ -1,7 +1,7 @@
 export interface User {
     email: string
     password: string
-    roles: Roles[]
+    roles: Roles
 }
 
 export type Roles = 'Admin' | 'Editor' | 'User'

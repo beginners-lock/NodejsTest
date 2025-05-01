@@ -76,3 +76,69 @@ Route: /employee/11
 Method: GET
 Origin: undefined
 
+ID: eea51a41-59d2-4c30-9a7b-7e94ef0fac0e
+Time: 01 May 2025	21:41:59 PM
+Route: /auth/signin
+Method: PUT
+Origin: undefined
+
+ID: 7c6c0696-45fd-4564-859d-f27e2b5dc02b
+Time: 01 May 2025	21:42:08 PM
+Route: /auth/signin
+Method: POST
+Origin: undefined
+
+ID: 3105e408-3ac1-4b4e-8c32-7e3bf518b107
+Time: 01 May 2025	21:42:17 PM
+Route: /auth/register
+Method: POST
+Origin: undefined
+
+ID: 947dac5c-9785-46d9-91ed-a23d57cb1874
+Time: 01 May 2025	21:42:29 PM
+Route: /auth/signin
+Method: POST
+Origin: undefined
+
+ID: bca70e83-d20a-4a29-a707-c9f0ab0f876a
+Time: 01 May 2025	21:42:34 PM
+Route: /auth/signin
+Method: POST
+Origin: undefined
+
+ID: f1d27eac-2d01-4030-af39-e25b3c6c48bf
+Time: 01 May 2025	21:42:49 PM
+Route: /auth/register
+Method: POST
+Origin: undefined
+
+ID: f21352e7-8a3f-4b72-86a6-22ee3dc86e3b
+Time: 01 May 2025	21:43:03 PM
+Route: /auth/register
+Method: POST
+Origin: undefined
+
+ID: 00fe83e5-9555-4cf6-ae37-dab385fb9509
+Time: 01 May 2025	21:43:18 PM
+Route: /auth/register
+Method: POST
+Origin: undefined
+
+ID: 5d645953-cdb0-4b9d-b804-9585dc46908a
+Time: 01 May 2025	21:43:31 PM
+Route: /auth/register
+Method: POST
+Origin: undefined
+
+ID: c3e9727c-bf25-4689-8dd9-3023611b4eba
+Time: 01 May 2025	21:43:38 PM
+Route: /auth/signin
+Method: POST
+Origin: undefined
+
+ID: a2577d56-bdcc-4dc3-87fd-564b37b4daad
+Time: 01 May 2025	21:43:43 PM
+Route: /auth/signin
+Method: POST
+Origin: undefined
+

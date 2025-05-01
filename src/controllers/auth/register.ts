@@ -22,7 +22,7 @@ export function register(req: Request, res: Response){
         users.push({
             email,
             password: hashed,
-            roles: ['User']
+            roles: 'User'
         });
 
         updateUsers(JSON.stringify(users, null, 2));

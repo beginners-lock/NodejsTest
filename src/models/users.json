@@ -1,1 +1,27 @@
-[]
+[
+  {
+    "email": "chukwurophi@gmail.com",
+    "password": "$2b$10$Ol38oPVrG9o5eqMzsKf9YOrvcqj9QkbQWtYlOUrdCE/puRkP7OWca",
+    "roles": "Admin"
+  },
+  {
+    "email": "alicejane@gmail.com",
+    "password": "$2b$10$sdgT7hcxaX7C.y0DBDp9RupxzlG1T0W61RVB.k95Fumc4sC33QF3i",
+    "roles": "Editor"
+  },
+  {
+    "email": "amakacynthia@gmail.com",
+    "password": "$2b$10$e5ixDQr9pp28sSL7WTfehuI683DvykTCnQEiHddnAEeBB49JYYLYW",
+    "roles": "Editor"
+  },
+  {
+    "email": "zadokmusty@gmail.com",
+    "password": "$2b$10$yqZdVPNoQ59cdOCDBP85IOCEpdkC/4rC5XhjjbMhwOFETvIOiGC8C",
+    "roles": "User"
+  },
+  {
+    "email": "hycentiruoma@gmail.com",
+    "password": "$2b$10$as1Sx7..sAolcoQbW9Lq8uhvEFfvzq0D9JCu/6tb6pAAy5uEh9Fkm",
+    "roles": "User"
+  }
+]
