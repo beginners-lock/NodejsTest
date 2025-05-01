@@ -23,7 +23,7 @@ export function createEmployee(req: Request, res: Response){
         console.log(employees);
 
         updateEmployees(JSON.stringify(employees, null, 2));
-        res.status(200).send({ message: 'success' });
+        res.status(200).send({ message: 'success', employee: employees[employees.length-1] });
     }catch(error){
         console.log(error);
         emitError(error as string, req.url, req.method, req.headers.origin);
