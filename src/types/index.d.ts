@@ -6,12 +6,15 @@ interface User {
 
 type RoleKeys = 'Admin' | 'Editor' | 'User'
 
-interface Role {
+type Role = Partial<Record<RoleKeys, number>>
+
+/*interface Role {
     [key: RoleKeys]: number
-}
+}*/
 
 interface Employee{
     name: string
     gender: 'Male' | 'Female'
+    phone: string
     salary: number
 }
