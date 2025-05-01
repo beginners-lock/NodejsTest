@@ -1,72 +1,79 @@
 [
-    {
+  {
     "id": 1,
     "phone": "+90 349 732 10 77",
     "gender": "Female",
     "name": "Shayne Fisher",
     "salary": "₦ 149,000"
-    },
-    {
+  },
+  {
     "id": 2,
     "phone": "+90 375 954 10 96",
     "gender": "Male",
     "name": "Jada Baumbach",
     "salary": "₦ 12,000"
-    },
-    {
+  },
+  {
     "id": 3,
     "phone": "+90 363 732 10 96",
     "gender": "Female",
     "name": "Asha Bogan",
     "salary": "₦ 241,000"
-    },
-    {
+  },
+  {
     "id": 4,
     "phone": "+90 399 754 10 89",
     "gender": "Male",
     "name": "Curtis Roob",
     "salary": "₦ 328,000"
-    },
-    {
+  },
+  {
     "id": 5,
     "phone": "+90 312 219 10 29",
     "gender": "Female",
     "name": "Adella Erdman",
     "salary": "₦ 26,000"
-    },
-    {
+  },
+  {
     "id": 6,
     "phone": "+90 342 971 10 17",
     "gender": "Male",
     "name": "Morton Barrows",
     "salary": "₦ 394,000"
-    },
-    {
+  },
+  {
     "id": 7,
     "phone": "+90 356 742 10 16",
     "gender": "Female",
     "name": "Akeem Jast",
     "salary": "₦ 226,000"
-    },
-    {
+  },
+  {
     "id": 8,
     "phone": "+90 397 513 10 37",
     "gender": "Male",
     "name": "Sedrick Ernser",
     "salary": "₦ 178,000"
-    },
-    {
+  },
+  {
     "id": 9,
     "phone": "+90 339 107 10 79",
     "gender": "Female",
     "name": "Maribel Denesik",
     "salary": "₦ 341,000"
-    },
-    {
+  },
+  {
     "id": 10,
     "phone": "+90 319 240 10 70",
     "gender": "Female",
     "name": "Magdalen Kuphal",
     "salary": "₦ 48,000"
-    }
+  },
+  {
+    "name": "Rophi Chukwu",
+    "gender": "Male",
+    "phone": "070 696 51848",
+    "salary": "₦ 100,000,000",
+    "id": 11
+  }
 ]
