@@ -2,6 +2,7 @@ export interface User {
     email: string
     password: string
     roles: Roles
+    refreshToken?: string
 }
 
 export type Roles = 'Admin' | 'Editor' | 'User'

@@ -2,7 +2,8 @@
   {
     "email": "chukwurophi@gmail.com",
     "password": "$2b$10$Ol38oPVrG9o5eqMzsKf9YOrvcqj9QkbQWtYlOUrdCE/puRkP7OWca",
-    "roles": "Admin"
+    "roles": "Admin",
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNodWt3dXJvcGhpQGdtYWlsLmNvbSIsImlhdCI6MTc0NjEzNzM1MCwiZXhwIjoxNzQ2NzQyMTUwfQ.pkSsClLyvXwVWzkC7_lmSfptCAn_x767NDzlJzKqKL0"
   },
   {
     "email": "alicejane@gmail.com",
