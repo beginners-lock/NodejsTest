@@ -1,21 +1,16 @@
 import { Request, Response } from 'express';
-import data from './../models/employees.json';
-import { Employee } from '../types';
-import { emitError } from '../emitters/errorEmitter';
-import { updateEmployees } from '../utils/updateEmployees';
+import data from '../../models/employees.json';
+import { updateEmployees } from '../../utils/updateEmployees';
+import { emitError } from '../../emitters/errorEmitter';
+import { Employee } from '../../types';
 
-export function editEmployee(req: Request, res: Response){
+export function editEmployeeAttribute(req: Request, res: Response){
     try{
         const employees = data as Employee[];
         const id = parseInt(req.params.id);
         const employeeData = req.body;
 
         delete employeeData.id;
-
-        if(!employeeData.name){ res.status(401).send({ message: 'Employee name must be provided' }); return; }
-        if(!employeeData.gender){ res.status(401).send({ message: 'Employee gender must be provided' }); return; }
-        if(!employeeData.phone){ res.status(401).send({ message: 'Employee phone must be provided' }); return; }
-        if(!employeeData.salary){ res.status(401).send({ message: 'Employee salary must be provided' }); return; }
 
         const userIndex = employees.findIndex(employee => employee.id === id);
 

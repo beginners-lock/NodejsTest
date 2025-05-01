@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import data from './../models/employees.json';
+import data from '../../models/employees.json';
 
 export function getEmployees(req: Request, res: Response){
     const employees = data || [];
