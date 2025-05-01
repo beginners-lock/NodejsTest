@@ -8,8 +8,8 @@ class MyEmitter extends EventEmitter {}
 
 export const errorEmitter = new MyEmitter();
 
-export const emitError = (message: string, route: string, method: string,origin: string) => {
-    errorEmitter.emit("error", message);
+export const emitError = (message: string, route: string, method: string,origin: string|undefined) => {
+    errorEmitter.emit("error", message, route, method, origin);
 }
 
 export const onError = (message: string, route: string, method: string, origin: string|undefined) => {
@@ -17,10 +17,12 @@ export const onError = (message: string, route: string, method: string, origin: 
     const errorLogFile = path.join(__dirname, '..', 'logs', 'errorLog.txt');
     const rs = fs.createWriteStream(errorLogFile, { flags: 'a' });
 
-    const time = format(new Date(), 'dd MMM YYYY\tHH:mm:ss aa');
+    const time = format(new Date(), 'dd MMM yyyy\tHH:mm:ss aa');
 
-    const entry = `ID: ${uuid()}\nTime: ${time}\nDetails: ${route} ${method} ${origin}\nMessage: ${message}`;
+    const entry = `ID: ${uuid()}\nTime: ${time}\nDetails: ${route} ${method} ${origin}\nMessage: ${message}\n\n`;
 
     rs.write(entry);
     rs.close();
+    
+    //NOTE: We can't put a try catch here because it would lead to a looping effect
 }
