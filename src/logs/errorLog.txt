@@ -3,3 +3,23 @@ Time: 01 May 2025	10:34:00 AM
 Details: / POST undefined
 Message: TypeError [ERR_INVALID_ARG_TYPE]: The "chunk" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received an instance of Array
 
+ID: 088d892b-b184-47cc-96e2-7dc495d1ebff
+Time: 01 May 2025	22:35:43 PM
+Details: /11 GET undefined
+Message: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+
+ID: fef61528-57d8-4831-90e8-525b45b3be34
+Time: 01 May 2025	22:35:46 PM
+Details: /11 GET undefined
+Message: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+
+ID: 4b469c5e-9b0b-4234-832a-3176750c3d20
+Time: 01 May 2025	22:36:16 PM
+Details: /11 GET undefined
+Message: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+
+ID: b72bc9c0-761d-4960-bc1d-cd74617e2ced
+Time: 01 May 2025	22:37:46 PM
+Details: /11 GET undefined
+Message: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+
