@@ -1,5 +1,6 @@
 import express from 'express';
 import { configDotenv } from 'dotenv';
+import { errorEmitter, emitError, onError } from './emitters/errorEmitter';
 
 const app = express();
 
@@ -13,4 +14,8 @@ app.get('/checker', (req, res)=>{
 
 app.listen(PORT, ()=>{
     console.log(`Listening on port ${PORT} 🚀`);
-})
+});
+
+errorEmitter.on("error", (message, route, method, origin)=>{
+    onError(message, route, method, origin);
+});
