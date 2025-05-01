@@ -1,7 +1,7 @@
 import { Request, Response } from 'express';
-import data from './../models/employees.json';
-import { emitError } from '../emitters/errorEmitter';
-import { Employee } from '../types';
+import data from '../../models/employees.json';
+import { emitError } from '../../emitters/errorEmitter';
+import { Employee } from '../../types';
 
 export function getEmployeeById(req: Request, res: Response){
     try{

@@ -1,12 +1,18 @@
 export interface User {
     email: string
     password: string
-    roles: Role[]
+    roles: Roles[]
 }
 
-export type RoleKeys = 'Admin' | 'Editor' | 'User'
+export type Roles = 'Admin' | 'Editor' | 'User'
 
-export type Role = Partial<Record<RoleKeys, number>>
+/*export type RoleKeys = 'Admin' | 'Editor' | 'User'
+
+export enum Roles {
+    Admin = 'Admin',
+    Editor = 'Editor',
+    User = 'User'
+}*/
 
 /*interface Role {
     [key: RoleKeys]: number

@@ -1,10 +1,10 @@
 import express from "express";
-import { getEmployees } from "../controllers/getEmployees";
-import { createEmployee } from "../controllers/createEmployee";
-import { getEmployeeById } from "../controllers/getEmployeeById";
-import { editEmployee } from "../controllers/editEmployee";
-import { editEmployeeAttribute } from "../controllers/editEmployeeAttribute";
-import { deleteEmployee } from "../controllers/deleteEmployee";
+import { getEmployees } from "../controllers/employee/getEmployees";
+import { createEmployee } from "../controllers/employee/createEmployee";
+import { getEmployeeById } from "../controllers/employee/getEmployeeById";
+import { editEmployee } from "../controllers/employee/editEmployee";
+import { editEmployeeAttribute } from "../controllers/employee/editEmployeeAttribute";
+import { deleteEmployee } from "../controllers/employee/deleteEmployee";
 
 export const employeeRouter = express.Router();
 
